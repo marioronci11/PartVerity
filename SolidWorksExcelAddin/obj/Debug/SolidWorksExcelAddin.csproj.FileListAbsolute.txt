@@ -1,0 +1,5 @@
+C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\obj\Debug\SolidWorksExcelAddin.csproj.AssemblyReference.cache
+C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\obj\Debug\SolidWorksExcelAddin.Properties.Resources.resources
+C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\obj\Debug\SolidWorksExcelAddin.SolidWorksRibbon.resources
+C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\obj\Debug\SolidWorksExcelAddin.csproj.GenerateResource.cache
+C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\obj\Debug\SolidWorksExcelAddin.csproj.CoreCompileInputs.cache
