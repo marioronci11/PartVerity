@@ -100,16 +100,5 @@ namespace SolidWorksExcelAddin.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap kisspng_microsoft_excel_table_computer_icons_spreadsheet_x_table_and_chair_5b15157a4517b21 {
-            get {
-                object obj = ResourceManager.GetObject("kisspng-microsoft-excel-table-computer-icons-spreadsheet-x-table-and-chair-5b1515" +
-                        "7a4517b21", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

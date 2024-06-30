@@ -21,7 +21,7 @@
     <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BDD95B70-DFB2-40D7-906E-EE5A4A8D90B9}</ProjectGuid>
+    <ProjectGuid>{BC0D2821-BB74-417F-8CB7-417EEB8E9996}</ProjectGuid>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <RootNamespace>SolidWorksExcelAddin</RootNamespace>
@@ -202,9 +202,6 @@
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <EmbeddedResource Include="CaptureModelDataForm.resx">
-      <DependentUpon>CaptureModelDataForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -267,7 +264,7 @@
     <ManifestKeyFile>SolidWorksExcelAddin_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>9666375F5117ADE9200A853B833B5F222C071802</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>554F2C33899AE91F9F235F2EA62D838C190E8BFF</ManifestCertificateThumbprint>
   </PropertyGroup>
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

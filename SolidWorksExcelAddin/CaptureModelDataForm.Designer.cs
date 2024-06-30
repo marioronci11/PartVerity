@@ -17,7 +17,6 @@
             this.btnAdd = new System.Windows.Forms.DataGridViewButtonColumn();
             this.paramName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.paramValue = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -25,7 +24,7 @@
             // 
             this.btnCapture.Location = new System.Drawing.Point(12, 12);
             this.btnCapture.Name = "btnCapture";
-            this.btnCapture.Size = new System.Drawing.Size(75, 23);
+            this.btnCapture.Size = new System.Drawing.Size(75, 75);
             this.btnCapture.TabIndex = 0;
             this.btnCapture.Text = "Capture";
             this.btnCapture.UseVisualStyleBackColor = true;
@@ -40,7 +39,7 @@
             this.btnAdd,
             this.paramName,
             this.paramValue});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 41);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 93);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(344, 150);
@@ -67,28 +66,18 @@
             this.paramValue.Name = "paramValue";
             this.paramValue.ReadOnly = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(100, 17);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Selected Range";
-            // 
             // CaptureModelDataForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(368, 203);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(368, 253);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnCapture);
             this.Name = "CaptureModelDataForm";
             this.Text = "Capture Model Data";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
+
         }
 
         private System.Windows.Forms.Button btnCapture;
@@ -96,6 +85,5 @@
         private System.Windows.Forms.DataGridViewButtonColumn btnAdd;
         private System.Windows.Forms.DataGridViewTextBoxColumn paramName;
         private System.Windows.Forms.DataGridViewTextBoxColumn paramValue;
-        private System.Windows.Forms.Label label1;
     }
 }

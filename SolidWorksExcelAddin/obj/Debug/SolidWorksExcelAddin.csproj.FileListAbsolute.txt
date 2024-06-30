@@ -3,3 +3,11 @@ C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\obj\Debug\SolidW
 C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\obj\Debug\SolidWorksExcelAddin.SolidWorksRibbon.resources
 C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\obj\Debug\SolidWorksExcelAddin.csproj.GenerateResource.cache
 C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\obj\Debug\SolidWorksExcelAddin.csproj.CoreCompileInputs.cache
+C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\bin\Debug\SolidWorksExcelAddin.dll
+C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\bin\Debug\SolidWorksExcelAddin.pdb
+C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\bin\Debug\SolidWorksExcelAddin.dll.manifest
+C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\bin\Debug\SolidWorksExcelAddin.vsto
+C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\obj\Debug\SolidWor.ABCCDBF9.Up2Date
+C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\obj\Debug\SolidWorksExcelAddin.dll
+C:\Users\Mario\Documents\GitHub\PartVerity\SolidWorksExcelAddin\obj\Debug\SolidWorksExcelAddin.pdb

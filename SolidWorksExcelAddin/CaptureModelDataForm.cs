@@ -10,10 +10,10 @@ namespace SolidWorksExcelAddin
     {
         private SldWorks swApp;
 
-        public CaptureModelDataForm()
+        public CaptureModelDataForm(SldWorks swApp)
         {
             InitializeComponent();
-            swApp = new SldWorks();
+            this.swApp = swApp;
         }
 
         private void btnCapture_Click(object sender, EventArgs e)
@@ -36,7 +36,7 @@ namespace SolidWorksExcelAddin
                 dataGridView1.Rows.Clear();
                 foreach (var param in parameters)
                 {
-                    double dimensionValue = swModel.Parameter(param).SystemValue * 1000; // Convert to mm
+                    double dimensionValue = swModel.Parameter(param).SystemValue * 1000;
                     dataGridView1.Rows.Add(new object[] { "Add", param, dimensionValue });
                 }
                 MessageBox.Show("Model data captured.");
@@ -49,7 +49,7 @@ namespace SolidWorksExcelAddin
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.ColumnIndex == 0) // "+" button column index
+            if (e.ColumnIndex == 0)
             {
                 AddDataToExcelTemplate(e.RowIndex);
             }
@@ -64,15 +64,14 @@ namespace SolidWorksExcelAddin
                 string paramName = row.Cells[1].Value.ToString();
                 double paramValue = Convert.ToDouble(row.Cells[2].Value);
 
-                // Find the next available row in Excel
                 int excelRow = 2;
-                while (activeSheet.Cells[excelRow, 1].Value != null)
+                while (activeSheet.Cells[excelRow, 2].Value != null)
                 {
                     excelRow++;
                 }
 
-                activeSheet.Cells[excelRow, 1].Value = paramName;
-                activeSheet.Cells[excelRow, 2].Value = paramValue;
+                activeSheet.Cells[excelRow, 2].Value = paramName;
+                activeSheet.Cells[excelRow, 4].Value = paramValue;
                 MessageBox.Show("Data added to Excel template.");
             }
             catch (Exception ex)
